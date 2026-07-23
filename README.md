@@ -22,7 +22,7 @@ The goal is to understand:
 
 - how finite-source effects and annual parallax enter microlensing analyses.
 
-This repository is a learning project, not an independent exoplanet-discoveryanalysis.
+This repository is a learning project, not an independent exoplanet-discovery analysis.
 
 ## Notebooks
 
@@ -30,29 +30,29 @@ This repository is a learning project, not an independent exoplanet-discoveryana
 
 Introduces the initial setup process:
 
-installing MulensModel;
+- Installing MulensModel;
 
-importing the package;
+- Importing the package;
 
-checking the installed version;
+- Checking the installed version;
 
-creating a basic point-source, point-lens model;
+- Creating a basic point-source, point-lens model;
 
-plotting a theoretical microlensing light curve.
+- Plotting a theoretical microlensing light curve.
 
 2) MulensModel_Real_Data_Crash_Course.ipynb
 
 Uses real microlensing observations to demonstrate:
 
-Loading and inspecting telescope data with MulensData.
+- Loading and inspecting telescope data with MulensData.
 
-Fitting a point-source, point-lens model with SciPy.
+- Fitting a point-source, point-lens model with SciPy.
 
-Comparing a one-lens model with a star-plus-planet binary-lens model.
+- Comparing a one-lens model with a star-plus-planet binary-lens model.
 
-Combining data from several telescopes and examining finite-source effects.
+- Combining data from several telescopes and examining finite-source effects.
 
-Comparing models with and without annual microlensing parallax.
+- Comparing models with and without annual microlensing parallax.
 
 The notebook also introduces the main MulensModel objects:
 
@@ -92,7 +92,7 @@ print(mm.__version__)
 
 ## Example data
 
-The real-data notebook uses observational files distributed with theMulensModel source release. A setup cell downloads the data directory thatmatches the installed MulensModel version and stores it locally beside thenotebook.
+The real-data notebook uses observational files distributed with the MulensModel source release. A setup cell downloads the data directory that matches the installed MulensModel version and stores it locally beside thenotebook.
 
 The downloaded data directory is intentionally not included in thisrepository.
 
@@ -108,27 +108,27 @@ OGLE event page:https://ogle.astrouw.edu.pl/cont/4_main/epl/ob08092/
 
 OGLE-2003-BLG-235 / MOA-2003-BLG-53
 
-Used to compare a single-lens model with a planetary binary-lens model. Theofficial tutorial states that the example photometry came from the NASAExoplanet Archive.
+Used to compare a single-lens model with a planetary binary-lens model. The official tutorial states that the example photometry came from the NASAExoplanet Archive.
 
 MulensModel tutorial:https://rpoleski.github.io/MulensModel/tutorial.html
 
 MOA-2008-BLG-310
 
-Used to demonstrate observations from multiple telescopes and finite-sourceeffects. The official example attributes the data and model parameters toJanczak et al. (2010), The Astrophysical Journal, 711, 731.
+Used to demonstrate observations from multiple telescopes and finite-source effects. The official example attributes the data and model parameters to Janczak et al. (2010), The Astrophysical Journal, 711, 731.
 
 Official MulensModel example:https://github.com/rpoleski/MulensModel/blob/master/examples/example_05_MB08310.py
 
 OGLE-2005-BLG-086
 
-Used to compare a point-lens model without annual parallax with two parallaxsolutions.
+Used to compare a point-lens model without annual parallax with two parallax solutions.
 
 MulensModel annual-parallax tutorial:https://rpoleski.github.io/MulensModel/tutorial_fit_pi_E.html
 
 ## Important interpretation notes
 
-The published planetary and higher-order model parameters used in theseexamples are supplied as inputs from the cited tutorials. The notebookdemonstrates how MulensModel evaluates those models; it does not independentlyrecover every published parameter.
+The published planetary and higher-order model parameters used in theseexamples are supplied as inputs from the cited tutorials. The notebook demonstrates how MulensModel evaluates those models; it does not independently recover every published parameter.
 
-A lower chi-squared generally indicates a better match to the observations,but a complete scientific detection also requires consideration of modelcomplexity, alternative explanations, parameter degeneracies, observationalsystematics, and physical plausibility.
+A lower chi-squared generally indicates a better match to the observations, but a complete scientific detection also requires consideration of model complexity, alternative explanations, parameter degeneracies, observational systematics, and physical plausibility.
 
 ## Next steps
 
