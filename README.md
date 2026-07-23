@@ -10,17 +10,17 @@ The notebooks in this repository reproduce and extend examples from theofficial 
 
 The goal is to understand:
 
-how microlensing observations are stored and plotted;
+- how microlensing observations are stored and plotted;
 
-how theoretical light curves are calculated;
+- how theoretical light curves are calculated;
 
-how models are compared with telescope measurements;
+- how models are compared with telescope measurements;
 
-how chi-squared and residuals are used to evaluate a fit;
+- how chi-squared and residuals are used to evaluate a fit;
 
-how a planetary binary-lens model can improve upon a single-lens model;
+- how a planetary binary-lens model can improve upon a single-lens model;
 
-how finite-source effects and annual parallax enter microlensing analyses.
+- how finite-source effects and annual parallax enter microlensing analyses.
 
 This repository is a learning project, not an independent exoplanet-discoveryanalysis.
 
