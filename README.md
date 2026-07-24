@@ -2,11 +2,11 @@
 
 A beginner-friendly exploration of MulensModel, a Python package for modeling gravitational microlensing events.
 
-This repository documents my initial familiarization with MulensModel and itsapplication to exoplanet microlensing. It progresses from installing and testing the package to working with real photometric observations and comparingdifferent physical microlensing models.
+This repository documents my initial familiarization with MulensModel and its application to microlensing (with exoplanets). It progresses from installing and testing the package to working with real data and comparing different physical microlensing models.
 
 ## Purpose and scope
 
-The notebooks in this repository reproduce and extend examples from theofficial MulensModel documentation using published datasets and modelparameters.
+The notebooks in this repository replicate and go into depth about examples from the official MulensModel documentation using published datasets and model parameters.
 
 The goal is to understand:
 
@@ -22,7 +22,7 @@ The goal is to understand:
 
 - how finite-source effects and annual parallax enter microlensing analyses.
 
-This repository is a learning project, not an independent exoplanet-discovery analysis.
+This repository is a learning project, not an independent exoplanet-discovery analysis! 
 
 ## Notebooks
 
@@ -48,7 +48,7 @@ Uses real microlensing observations to demonstrate:
 
 - Fitting a point-source, point-lens model with SciPy.
 
-- Comparing a one-lens model with a star-plus-planet binary-lens model.
+- Comparing a one-lens model with a star + planet binary-lens model.
 
 - Combining data from several telescopes and examining finite-source effects.
 
@@ -56,13 +56,13 @@ Uses real microlensing observations to demonstrate:
 
 The notebook also introduces the main MulensModel objects:
 
-MulensData: stores observation times, brightness measurements, anduncertainties.
+- MulensData: stores observation times, brightness measurements, and uncertainties.
 
-Model: stores physical microlensing parameters and calculatesmagnification.
+- Model: stores physical microlensing parameters and calculates magnification.
 
-Event: connects a model to one or more observational datasets.
+- Event: connects a model to one or more observational datasets.
 
-Event.get_chi2(): evaluates the disagreement between a model and the data.
+- Event.get_chi2(): evaluates the disagreement between a model and the data.
 
 ## Repository structure
 
