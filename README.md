@@ -1,6 +1,6 @@
 ### MulensModel Crash Course
 
-A beginner-friendly exploration of MulensModel, a Python package formodeling gravitational microlensing events.
+A beginner-friendly exploration of MulensModel, a Python package for modeling gravitational microlensing events.
 
 This repository documents my initial familiarization with MulensModel and itsapplication to exoplanet microlensing. It progresses from installing and testing the package to working with real photometric observations and comparingdifferent physical microlensing models.
 
