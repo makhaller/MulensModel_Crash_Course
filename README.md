@@ -64,14 +64,6 @@ The notebook also introduces the main MulensModel objects:
 
 - Event.get_chi2(): evaluates the disagreement between a model and the data.
 
-## Repository structure
-
-mulensmodel-crash-course/
-├── README.md
-├── requirements.txt
-├── 01_install_and_import_mulensmodel.ipynb
-└── 02_mulensmodel_real_data_crash_course.ipynb
-
 ## Installation
 
 Download or clone this repository, then install the required packages:
@@ -84,7 +76,7 @@ jupyter notebook
 
 Run the notebooks in numerical order.
 
-The notebooks use MulensModel version 3.11.0. You can confirm the installedversion with:
+The notebooks use MulensModel version 3.11.0. You can confirm the installed version with:
 
 import MulensModel as mm
 
@@ -92,9 +84,9 @@ print(mm.__version__)
 
 ## Example data
 
-The real-data notebook uses observational files distributed with the MulensModel source release. A setup cell downloads the data directory that matches the installed MulensModel version and stores it locally beside thenotebook.
+The real-data notebook uses observational files distributed with the MulensModel source release. A setup cell downloads the data directory that matches the installed MulensModel version and stores it locally beside the notebook.
 
-The downloaded data directory is intentionally not included in thisrepository.
+The downloaded data directory is intentionally not included in this repository! 
 
 ## Real-data examples and sources
 
@@ -126,20 +118,7 @@ MulensModel annual-parallax tutorial:https://rpoleski.github.io/MulensModel/tuto
 
 ## Important interpretation notes
 
-The published planetary and higher-order model parameters used in theseexamples are supplied as inputs from the cited tutorials. The notebook demonstrates how MulensModel evaluates those models; it does not independently recover every published parameter.
+The published planetary and higher-order model parameters used in these examples are supplied as inputs from the cited tutorials. The notebook demonstrates how MulensModel evaluates those models; it does not independently recover every published parameter! 
 
-A lower chi-squared generally indicates a better match to the observations, but a complete scientific detection also requires consideration of model complexity, alternative explanations, parameter degeneracies, observational systematics, and physical plausibility.
+A lower chi-squared generally indicates a better match to the observations, but a complete scientific detection also requires consideration of model complexity, alternative explanations, parameter degeneracies, observational systematics, and physical plausibility! 
 
-## Next steps
-
-Possible extensions of this project include:
-
-- searching over the planetary parameters q, s, and alpha;
-
-- mapping chi-squared across a parameter grid;
-
-- studying close–wide and positive–negative u_0 degeneracies;
-
-- testing model recovery with simulated Roman microlensing data;
-
-- comparing optimization and MCMC fitting methods.
