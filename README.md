@@ -72,15 +72,19 @@ The notebook also introduces the main MulensModel objects:
 
 ## Installation
 
-Download or clone this repository, then install the required packages:
+Download or clone this repository. Then install the required packages by running:
 
+```bash
 pip install MulensModel==3.11.0 scipy matplotlib numpy jupyter
+```
+
+Alternatively, open and run `Install_and_Import_MulensModel.ipynb`, which installs and imports the required packages.
 
 Open Jupyter:
 
 jupyter notebook
 
-Run the notebooks in numerical order.
+Run Install_and_Import_MulensModel.ipynb first, followed by MulensModel_Real_Data_Crash_Course.ipynb.
 
 The notebooks use MulensModel version 3.11.0. You can confirm the installed version with:
 
@@ -121,7 +125,7 @@ OGLE event page:https://ogle.astrouw.edu.pl/cont/4_main/epl/ob08092/
 
 OGLE-2003-BLG-235 / MOA-2003-BLG-53
 
-Used to compare a single-lens model with a planetary binary-lens model. The official tutorial states that the example photometry came from the NASAExoplanet Archive.
+Used to compare a single-lens model with a planetary binary-lens model. The official tutorial states that the example photometry came from the NASA Exoplanet Archive.
 
 MulensModel tutorial:https://rpoleski.github.io/MulensModel/tutorial.html
 
