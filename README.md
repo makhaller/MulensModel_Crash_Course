@@ -92,7 +92,15 @@ print(mm.__version__)
 
 The real-data notebook uses observational files distributed with the MulensModel source release. A setup cell downloads the data directory that matches the installed MulensModel version and stores it locally beside the notebook.
 
-The downloaded data directory is intentionally not included in this repository! 
+The downloaded data directory is intentionally not included in this repository!
+
+## Sources and Development of the Code
+
+The links below were the main reference materials provided to ChatGPT while developing this crash course. They supplied the example datasets, published model parameters, and the main MulensModel methods demonstrated in the notebooks. However, they are not the direct source of every line of code in this repository.
+
+The crash-course notebooks contain more code than appears on the linked pages because ChatGPT helped combine, adapt, and expand the examples into a single instructional notebook. Additional code was written to organize the examples, load and check files, display intermediate results, compare models, calculate or present fit statistics, create plots, and make the notebook easier to run one section at a time. 
+
+Therefore, the linked sources should be understood as the scientific and technical starting points for the project rather than as line-by-line sources for the complete notebook. Some code follows or adapts the official examples, while other portions were generated or reorganized with ChatGPT based on those examples and my requests. I reviewed and tested the notebook, but AI assistance was used in writing both the code and its explanations.
 
 ## Real-data examples and sources
 
