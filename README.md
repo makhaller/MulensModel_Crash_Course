@@ -74,7 +74,7 @@ The notebook also introduces the main MulensModel objects:
 
 Download or clone this repository, then install the required packages:
 
-pip install -r requirements.txt
+pip install MulensModel==3.11.0 scipy matplotlib numpy jupyter
 
 Open Jupyter:
 
@@ -101,6 +101,13 @@ The links below were the main reference materials provided to ChatGPT while deve
 The crash-course notebooks contain more code than appears on the linked pages because ChatGPT helped combine, adapt, and expand the examples into a single instructional notebook. Additional code was written to organize the examples, load and check files, display intermediate results, compare models, calculate or present fit statistics, create plots, and make the notebook easier to run one section at a time. 
 
 Therefore, the linked sources should be understood as the scientific and technical starting points for the project rather than as line-by-line sources for the complete notebook. Some code follows or adapts the official examples, while other portions were generated or reorganized with ChatGPT based on those examples and my requests. I reviewed and tested the notebook, but AI assistance was used in writing both the code and its explanations.
+
+### Primary documentation
+
+The primary reference for this project was the official
+[MulensModel documentation](https://rpoleski.github.io/MulensModel/).
+Its linked tutorials, examples, and API documentation were used as the
+technical starting point for the notebooks.
 
 ## Real-data examples and sources
 
