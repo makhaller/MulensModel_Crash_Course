@@ -4,6 +4,12 @@ A beginner-friendly exploration of MulensModel, a Python package for modeling gr
 
 This repository documents my initial familiarization with MulensModel and its application to microlensing (with exoplanets). It progresses from installing and testing the package to working with real data and comparing different physical microlensing models.
 
+## My Contribution and Use of AI
+
+This project is based on tutorial code from the official MulensModel documentation. I located the relevant tutorials, selected and organized the examples, and debugged and tested the notebooks to confirm that they ran correctly.
+
+I used ChatGPT to help write and adapt parts of the code, troubleshoot errors, and generate line-by-line comments and explanations. I reviewed the generated code and explanations, tested the notebooks, and made changes where needed. The underlying examples and scientific methods come from the cited MulensModel tutorials.
+
 ## Purpose and scope
 
 The notebooks in this repository replicate and go into depth about examples from the official MulensModel documentation using published datasets and model parameters.
